@@ -1,0 +1,25 @@
+@import '../../index.scss';
+
+header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $maincolor;
+    color: white;
+    height: 8vh;
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        svg {
+            padding: 0 6px;
+            font-size: 26px;
+        }
+    }
+
+    img {
+        width: 160px;
+    }
+}

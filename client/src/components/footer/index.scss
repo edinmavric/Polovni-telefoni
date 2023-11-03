@@ -1,0 +1,55 @@
+@import '../../index.scss';
+
+footer {
+    background-color: $maincolor;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    div {
+        padding: 12px 0;
+    }
+
+    .fast-links {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6px;
+
+        a {
+            padding-left: 6px;
+            margin: 6px 0 0 0;
+        }
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            padding-left: 6px;
+        }
+
+        button {
+            padding: 6px 18px;
+            background-color: $maincolor;
+            color: $secondarycolor;
+            border: 1px solid $secondarycolor;
+            border-radius: 4px;
+            margin: 18px auto 0 auto;
+        }
+    }
+
+    .socialmedia-links {
+        display: flex;
+        justify-content: space-around;
+        font-size: 28px;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 12px;
+    }
+}
